@@ -1,2 +1,2 @@
 
- worker: python3 -m kopp
+ web: python app.py
