@@ -1,2 +1,3 @@
-worker: python app.py
+web: gunicorn jobs.wsgi
+release: python app.py
 
